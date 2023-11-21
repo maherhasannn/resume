@@ -1,0 +1,172 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+\usepackage{xcolor}
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large Maher Hasan}\\[2pt] % Name
+San Diego, CA | \href{mailto:maherhasan@berkeley.edu}{maherhasan@berkeley.edu} | (760) 916-6605 | \href{www.linkedin.com/in/maher-hasan-458187201}{linkedin.com/in/maher-hasan} % Contact info
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\vspace{-\topsep}
+%\noindent
+
+\textbf{University of California, Berkeley}\hfill Expected: December 2025\\ % University name and location
+\textit{B.A. Applied Data Science, Business Analytics}\hfill \textit{Overall GPA: 3.89}\\ % Degree and GPA
+\textbf{Certifications}\hfill\\ % University name and location
+\textit{Bloomberg - Market Concepts}\hfill \textit Oct 2023\\ 
+\textit{Google - The Fundamentals of Digital Marketing \hfill \textit {Jan 2023}}
+
+
+% Leadership Section
+\titlespacing*{\section}{0pt}{0pt}{0pt} % Reduce space before and after section title
+\section*{LEADERSHIP}
+\vspace{0.25\baselineskip} % Add some vertical space after the section title
+
+\textbf{Yllow} \hfill San Diego, CA\\ % Company name and location
+\textit{Co-Founder} \hfill Month Year - Month Year % Position and duration
+\begin{itemize}[noitemsep, topsep=0pt] % Adjusted spacing for itemize
+    \item Founded Yllow with the help of UCLA and UC Berkeley students to create a platform for unsigned artists to promote their independent concerts through our app available on the App Store. Facilitated full-stack development.
+    \item Grew our network to an audience of over 100k+ people, mainly concentrated in high-value areas. Performed regular data research and market research to perform/insure a better market fit. Product development. Microsoft Startup Hub. 
+    % Job responsibilities and achievements
+\end{itemize}
+\textbf{Target} \hfill Escondido, CA\\ % Company name and location
+\textit{Data Analyst Project Lead} \hfill September 2020 - June 2021 % Position and duration
+\begin{itemize}[noitemsep, topsep=0pt] % Adjusted spacing for itemize
+    \item Introduced club members to the use of R programming language, guiding them in leveraging R to examine and interpret complex datasets. 
+    \item Provided hands-on training sessions that empowered the team to extract meaningful insights from transaction history, conduct pattern recognition, and analyze account data for fraud prevention.% Job responsibilities and achievements
+\end{itemize}
+% \textbf{Knotts Berry Farm} \hfill Berkeley, CA\\ % Company name and location
+% \textit{Co-Founder} \hfill Month Year - Month Year % Position and duration
+% \begin{itemize}[noitemsep, topsep=0pt] % Adjusted spacing for itemize
+%     \item Put info here.'% Job responsibilities and achievements
+% \end{itemize}
+
+% Experience Section
+\titlespacing*{\section}{0pt}{0pt}{0pt} % Reduce space before and after section title
+\section*{EXPERIENCE}
+\vspace{0.25\baselineskip} % Add some vertical space after the section title
+
+\noindent
+\textbf{Spaceform} \hfill Berkeley, CA\\ % Company name and location
+\textit{Manufacturing Engineer} \hfill Oct 2023 - Current % Position and duration
+\begin{itemize}[noitemsep, topsep=0pt] % Adjusted spacing for itemize
+    \item Played a pivotal role within UC Berkeley's SpaceForm organization, contributing to the Space Deployables team in advancing materials and structures for aerospace applications. Specifically, led efforts in material science and design, creating 3D models (CAD) to support the physics team in calculating and emulating the impact of reduced mass on star shields. Grad Student - Haseen and Post Doc Jimin % Job responsibilities and achievements
+    \item Addressed the unique challenge of minimizing starshield mass while maintaining structural integrity, showcasing interdisciplinary collaboration and innovative problem-solving within the SpaceForm team. This contribution not only supports the immediate goals of spacecraft protection but also lays the groundwork for the future of commercial space exploration and aerospace innovation.
+\end{itemize}
+
+\noindent
+\textbf{Piedmont Group} \hfill Berkeley, CA\\ % Company name and location
+\textit{Data Analyst} \hfill Aug 2023 - Current % Position and duration
+\begin{itemize}[noitemsep, topsep=0pt] % Adjusted spacing for itemize
+    \item Led strategy development and market research initiatives at Piedmont Consulting Group, working on a transformative project for a Farmers Insurance Agency in Carlsbad, CA. Collaborated closely with the agency owner to understand and address significant challenges impacting the agency's operations. % Job responsibilities and achievements
+    \item Undertook a key role in expanding the agency's market presence by strategically venturing into financial services, life insurance, and commercial insurance. Held the title of Data Analyst during the project and conducted thorough market research to provide actionable insights and recommendations, facilitating the agency's effective transformation and growth amid industry challenges.
+\end{itemize}
+
+% \noindent
+% \textbf{theCoderSchool} \hfill Berkeley, CA\\ % Company name and location
+% \textit{Programming Coach} \hfill Month Year - Month Year % Position and duration
+% \begin{itemize}[noitemsep, topsep=0pt] % Adjusted spacing for itemize
+%     \item Put info here.'% Job responsibilities and achievements
+% \end{itemize}
+
+\noindent
+\textbf{Mingle App} \hfill  Houston, CA\\ % Company name and location
+\textit{Frontend Development Intern} \hfill Oct 2022 - Apr 2023 % Position and duration
+\begin{itemize}[noitemsep, topsep=0pt] % Adjusted spacing for itemize
+    \item Spearheaded UI/UX design, prototyping, and product testing at Mingle, a Houston-based startup guided by a Google Product Manager. Selected from over 1000 candidates, my expertise in Figma prototyping, market research, and user experience distinguished me. Played a pivotal role in strategic development, aligning with the company's vision to foster social connections among couples.\\ % Job responsibilities and achievements
+\end{itemize}
+\vspace{-\topsep}
+
+
+% % Additional Experience or Volunteer Work
+% \noindent
+% \textbf{Project or Volunteer Work Name} \hfill City, State\\ % Project or organization name and location
+% \textit{Position Title, Volunteer} \hfill Month Year – Month Year % Position and duration
+% \begin{itemize}
+%     \item Description of responsibilities and achievements at this position. % Responsibilities and achievements
+% \end{itemize}
+
+% Club or Organization Experience
+% \textbf{Club or Organization Name} \hfill City, State\\ % Club or organization name and location
+% \textit{Position Title} \hfill Month Year – Ongoing % Position and duration
+% \begin{itemize}
+%     \item Description of responsibilities and achievements at this position. % Responsibilities and achievements
+% \end{itemize}
+
+% Publication Section
+\vspace{-\topsep}
+\titlespacing*{\section}{0pt}{0pt}{0pt} % Reduce space before and after section title
+\section*{PUBLICATIONS}
+\vspace{0.25\baselineskip} % Add some vertical space after the section title
+
+\textbf{Voter Participation, Is a Problem In Our Nation}\hfill Jul 18, 2021\\ % Project name and location
+\noindent % To prevent indentation
+\begin{itemize}
+\vspace{-\topsep}
+\vspace{-\topsep}
+\vspace{-\topsep}
+    \item Applied data science to identify trends behind the lower voter turnout among 18-29 year-olds, subsequently formulating strategies for increased engagement, rooted in empirical insights and aimed at fostering a more active civic culture within this demographic. Defended my thesis against a panelist of superintendents.
+\end{itemize}
+
+
+% Projects Section
+\vspace{-\topsep}
+\titlespacing*{\section}{0pt}{0pt}{0pt} % Reduce space before and after section title
+\section*{PROJECTS}
+\vspace{0.25\baselineskip} % Add some vertical space after the section title
+\textbf{GradeGPT: Automated Grading and Data Display Platform} \hfill Oct 2023\\ % Project name and location
+\textit{Project Link:} \url{https://github.com/username/projectname} \hfill Ongoing Development - JavaScript % Project link and duration
+\vspace{-\topsep}
+\begin{itemize}
+    \item Chart.js, MongoDB % Project description and contributions
+\end{itemize}
+\vspace{-\topsep}
+% Additional Project
+\noindent
+
+\textbf{Voronoi-Based Machine Learning Visualization with Yelp Data} \hfill Sep, 2023\\ % Project name and location
+\textit{Project Link:} \url{https://www.projectwebsite.com/} \hfill Python % Project link and duration
+\begin{itemize}
+\vspace{-\topsep}
+    \item Description of the project and your contributions. % Project description and contributions
+\end{itemize}
+\vspace{-\topsep}
+
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+\vspace{0.25\baselineskip} % Add some vertical space after the section title
+    % \item \textbf{Relevant Coursework:} List of relevant courses you have taken. % Relevant coursework
+    \item \textbf{Programming:} C, C++, JavaScript, Python, R, MySql, MS Excel, MATLAB, HTML/CSS, Flutter, Latex, Kotlin % Programming skills
+    
+    \item \textbf{Software:} Git, Firebase, Figma, Notion, Onshape, Tensorflow, OpenCV, Rhino3D, NumPy, Pandas, Matplotlib            
+    \item {Experienced with ML, APIs, project management, web/app development, SEO, A/B Testing, and digital marketing}% Software skills
+    % \item \textbf{Languages:} Flue. % Communication skills
+\end{itemize}
+
+% End document
+\end{document}
+o
